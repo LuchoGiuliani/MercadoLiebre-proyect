@@ -1,13 +1,13 @@
 const express = require('express')
 const path = require('path')
-const port = process.env.PORT || 2020;
+const port = process.env.PORT || 2022;
 
 const app = express();
 
 const publicPath = path.resolve(__dirname, './public')
 app.use(express.static(publicPath))
 app.listen(port, () => console.log('listening on port ' + port))
-app.listen(2022)
+
 
 
 app.get('/', (req, res) => {
