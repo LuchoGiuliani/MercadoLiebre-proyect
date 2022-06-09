@@ -1,0 +1,17 @@
+@media screen and (max-width:398px ){
+    .description {
+        *display: none;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .logo {
+        width: 90%;
+    }
+    .cuotas {
+        font-size: 11px;
+    }
+}
